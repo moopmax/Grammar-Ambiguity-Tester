@@ -1,0 +1,5 @@
+S -> id := E
+S -> if ( E ) S else S
+E -> T EP
+T -> id | ( E )
+EP -> epsilon | + E
